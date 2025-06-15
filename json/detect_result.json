@@ -1,0 +1,14 @@
+{
+  "commands": {
+    "sudo": true,
+    "passwd": true,
+    "usermod": true,
+    "gpasswd": true
+  },
+  "groups": {
+    "sudo": true,
+    "wheel": false,
+    "admin": false
+  },
+  "os_family": "debian"
+}

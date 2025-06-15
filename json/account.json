@@ -1,0 +1,74 @@
+{
+  "scan_results": {
+    "empty_password": {
+      "exists": false,
+      "users": [],
+      "score": 8
+    },
+    "uid0_users": {
+      "exists": false,
+      "users": [],
+      "score": 6
+    },
+    "risky_sudoers": {
+      "exists": true,
+      "users": [
+        "beibei"
+      ],
+      "skipped": [],
+      "score": 0
+    },
+    "firewall": {
+      "exists": true,
+      "score": 0,
+      "details": {
+        "ufw_active": false,
+        "default_policy": "Status: inactive",
+        "logging": "off"
+      }
+    },
+    "auditd_installed": {
+      "installed": true,
+      "score": 4
+    },
+    "audit_rules": {
+      "exists": true,
+      "score": 3
+    },
+    "audit_logrotate": {
+      "exists": false,
+      "score": 0
+    },
+    "update_cache": {
+      "score": 7
+    },
+    "auto_update": {
+      "score": 7
+    },
+    "update_log": {
+      "score": 6
+    },
+    "ssh_bind_public": {
+      "exists": true,
+      "score": 0
+    },
+    "telnet_enabled": {
+      "exists": false,
+      "score": 4
+    },
+    "ftp_installed": {
+      "exists": false,
+      "score": 4
+    },
+    "ssh_root_login": {
+      "score": 8
+    },
+    "ssh_empty_password": {
+      "score": 7
+    },
+    "ssh_max_auth_tries": {
+      "score": 5
+    },
+    "total_score": 69
+  }
+}

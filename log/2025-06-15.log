@@ -1,0 +1,680 @@
+2025-06-15 15:01:17 - INFO - -----------------------Starting Scanning---------------------
+2025-06-15 15:01:20 - INFO - hecking for users with empty passwords...
+2025-06-15 15:01:20 - ERROR - This check requires sudo privileges
+2025-06-15 15:01:20 - WARNING - Empty password check check aborted due to insufficient permissions or fatal error.
+2025-06-15 15:01:41 - INFO - -----------------------Starting Scanning---------------------
+2025-06-15 15:01:43 - INFO - hecking for users with empty passwords...
+2025-06-15 15:01:43 - INFO - No empty password users found, success, score 8
+2025-06-15 15:01:43 - INFO - Checking for non-root UID 0 users...
+2025-06-15 15:01:43 - INFO - No non-root UID 0 users found, success, score 6
+2025-06-15 15:01:43 - INFO - Checking for risky sudoers...
+2025-06-15 15:01:43 - ERROR - Risky sudoers found (excluding current user): ['beibei'], score 0
+2025-06-15 15:01:50 - INFO - ----------Checking firewall status------------
+2025-06-15 15:01:50 - INFO - Environment detection completed and saved to json/detect_result.json
+2025-06-15 15:01:50 - WARNING - ufw not installed, installing...
+2025-06-15 15:01:59 - ERROR - ufw active: failed, score +0
+2025-06-15 15:01:59 - ERROR - ufw default policy deny: failed, score +0
+2025-06-15 15:01:59 - ERROR - ufw logging: disabled, score +0
+2025-06-15 15:02:05 - INFO - Checking if auditd is installed...
+2025-06-15 15:02:05 - INFO - auditd installed, +4 score
+2025-06-15 15:02:09 - INFO - Checking audit rules for passwd, shadow, secure...
+2025-06-15 15:02:09 - INFO - All required audit rules found, +3 score
+2025-06-15 15:02:09 - INFO - Checking logrotate for audit logs...
+2025-06-15 15:02:09 - WARNING - No logrotate config found for audit logs
+2025-06-15 15:02:09 - INFO - Checking if update cache exists...
+2025-06-15 15:02:09 - INFO - Update cache exists, +7 score
+2025-06-15 15:02:09 - INFO - Checking if auto update service is enabled...
+2025-06-15 15:02:09 - INFO - Auto update enabled, +7 score
+2025-06-15 15:02:09 - INFO - Checking if update log file exists...
+2025-06-15 15:02:09 - INFO - Update log exists, +6 score
+2025-06-15 15:02:12 - INFO - Checking if SSH is bound to 0.0.0.0
+2025-06-15 15:02:12 - INFO - SSH bound to public interface, score 0
+2025-06-15 15:02:12 - INFO - Checking if Telnet service exists
+2025-06-15 15:02:12 - INFO - Telnet not enabled, score 4
+2025-06-15 15:02:12 - INFO - Checking if FTP service installed
+2025-06-15 15:02:12 - INFO - FTP not installed, score 4
+2025-06-15 15:02:16 - INFO - Checking SSH root login...
+2025-06-15 15:02:16 - INFO - Root login disabled, +8 score
+2025-06-15 15:02:17 - INFO - Checking SSH empty passwords...
+2025-06-15 15:02:17 - INFO - Empty passwords disabled, +7 score
+2025-06-15 15:02:18 - INFO - Checking SSH MaxAuthTries...
+2025-06-15 15:02:18 - INFO - MaxAuthTries <= 4, +5 score
+2025-06-15 15:02:18 - INFO - Account security audit completed. Total score: 69 (the total score is 100)
+2025-06-15 15:02:18 - INFO - --------- All scanning completed successfully-----------------
+2025-06-15 15:03:35 - INFO - -----------------------Starting Scanning---------------------
+2025-06-15 15:04:19 - INFO - ---------------------开始扫描-----------------------
+2025-06-15 15:04:21 - INFO - hecking for users with empty passwords...
+2025-06-15 15:04:21 - INFO - No empty password users found, success, score 8
+2025-06-15 15:04:21 - INFO - Checking for non-root UID 0 users...
+2025-06-15 15:04:21 - INFO - No non-root UID 0 users found, success, score 6
+2025-06-15 15:04:21 - INFO - Checking for risky sudoers...
+2025-06-15 15:04:21 - ERROR - Risky sudoers found (excluding current user): ['beibei'], score 0
+2025-06-15 15:04:38 - INFO - ----------Checking firewall status------------
+2025-06-15 15:04:38 - INFO - Environment detection completed and saved to json/detect_result.json
+2025-06-15 15:04:38 - ERROR - ufw active: failed, score +0
+2025-06-15 15:04:38 - ERROR - ufw default policy deny: failed, score +0
+2025-06-15 15:04:38 - ERROR - ufw logging: disabled, score +0
+2025-06-15 15:05:17 - INFO - Checking if auditd is installed...
+2025-06-15 15:05:17 - INFO - auditd installed, +4 score
+2025-06-15 15:05:21 - INFO - Checking audit rules for passwd, shadow, secure...
+2025-06-15 15:05:21 - INFO - All required audit rules found, +3 score
+2025-06-15 15:05:21 - INFO - Checking logrotate for audit logs...
+2025-06-15 15:05:21 - WARNING - No logrotate config found for audit logs
+2025-06-15 15:05:21 - INFO - Checking if update cache exists...
+2025-06-15 15:05:21 - INFO - Update cache exists, +7 score
+2025-06-15 15:05:21 - INFO - Checking if auto update service is enabled...
+2025-06-15 15:05:21 - INFO - Auto update enabled, +7 score
+2025-06-15 15:05:21 - INFO - Checking if update log file exists...
+2025-06-15 15:05:21 - INFO - Update log exists, +6 score
+2025-06-15 15:05:34 - INFO - Checking if SSH is bound to 0.0.0.0
+2025-06-15 15:05:34 - INFO - SSH bound to public interface, score 0
+2025-06-15 15:05:34 - INFO - Checking if Telnet service exists
+2025-06-15 15:05:34 - INFO - Telnet not enabled, score 4
+2025-06-15 15:05:34 - INFO - Checking if FTP service installed
+2025-06-15 15:05:34 - INFO - FTP not installed, score 4
+2025-06-15 15:05:36 - INFO - Checking SSH root login...
+2025-06-15 15:05:36 - INFO - Root login disabled, +8 score
+2025-06-15 15:05:37 - INFO - Checking SSH empty passwords...
+2025-06-15 15:05:37 - INFO - Empty passwords disabled, +7 score
+2025-06-15 15:05:39 - INFO - Checking SSH MaxAuthTries...
+2025-06-15 15:05:39 - INFO - MaxAuthTries <= 4, +5 score
+2025-06-15 15:05:39 - INFO - Account security audit completed. Total score: 69 (the total score is 100)
+2025-06-15 15:05:39 - INFO - --------- All scanning completed successfully-----------------
+2025-06-15 15:06:02 - INFO - ---[dryrun] Starting simulated fixes (no changes will be applied)---
+2025-06-15 15:06:02 - INFO - [dryrun] Empty password check: No issues detected, no action needed
+2025-06-15 15:06:02 - INFO - [dryrun] UID 0 users check: No issues detected, no action needed
+2025-06-15 15:06:02 - INFO - [dryrun] Risky sudoers check: Issue detected, executing simulated fix
+2025-06-15 15:06:02 - INFO - [dryrun] 从 sudo, wheel, admin 组移除无关成员: ['beibei']
+2025-06-15 15:06:02 - INFO - [dryrun] Firewall check: Issue detected, executing simulated fix
+2025-06-15 15:06:02 - INFO - ----------开始防火墙修复流程------------
+2025-06-15 15:06:02 - INFO - [dryrun] 将检查并配置 ufw
+2025-06-15 15:06:02 - INFO - [dryrun] ufw 服务将被启用并设置为开机自启
+2025-06-15 15:06:02 - INFO - [dryrun] 默认策略将设置为拒绝（如存在安全风险）
+2025-06-15 15:06:02 - INFO - [dryrun] ufw 日志将被启用（如果未开启）
+2025-06-15 15:06:02 - INFO - [dryrun] Auditd installation check: No issues detected, no action needed
+2025-06-15 15:06:02 - INFO - [dryrun] Audit rules check: No issues detected, no action needed
+2025-06-15 15:06:02 - INFO - [dryrun] Audit logrotate check: No issues detected, no action needed
+2025-06-15 15:06:02 - INFO - [dryrun] Audit update_log check: No issues detected, no action needed
+2025-06-15 15:06:02 - INFO - [dryrun] Audit update_cache check: No issues detected, no action needed
+2025-06-15 15:06:02 - INFO - [dryrun] Audit update_service check: No issues detected, no action needed
+2025-06-15 15:06:02 - INFO - [dryrun] Fix SSH bind address to localhost: No issues detected, no action needed
+2025-06-15 15:06:02 - INFO - [dryrun] Disable and remove Telnet service: No issues detected, no action needed
+2025-06-15 15:06:02 - INFO - [dryrun] Disable and remove FTP service: No issues detected, no action needed
+2025-06-15 15:06:02 - INFO - [dryrun] Audit ssh_root check: No issues detected, no action needed
+2025-06-15 15:06:02 - INFO - [dryrun] Audit ssh_passwd_check: No issues detected, no action needed
+2025-06-15 15:06:02 - INFO - [dryrun] Audit ssh_max check: No issues detected, no action needed
+2025-06-15 15:06:02 - INFO - -----[dryrun] All simulated fixes completed successfully-----
+2025-06-15 15:08:00 - INFO - ---------------------开始扫描-----------------------
+2025-06-15 15:08:02 - INFO - Checking for non-root UID 0 users...
+2025-06-15 15:08:02 - INFO - No non-root UID 0 users found, success, score 6
+2025-06-15 15:08:02 - INFO - Checking for risky sudoers...
+2025-06-15 15:08:02 - ERROR - Risky sudoers found (excluding current user): ['beibei'], score 0
+2025-06-15 15:08:21 - INFO - ---------------------开始扫描-----------------------
+2025-06-15 15:08:22 - INFO - hecking for users with empty passwords...
+2025-06-15 15:08:22 - INFO - No empty password users found, success, score 8
+2025-06-15 15:08:22 - INFO - Checking for non-root UID 0 users...
+2025-06-15 15:08:22 - INFO - No non-root UID 0 users found, success, score 6
+2025-06-15 15:08:22 - INFO - Checking for risky sudoers...
+2025-06-15 15:08:22 - ERROR - Risky sudoers found (excluding current user): ['beibei'], score 0
+2025-06-15 15:08:23 - INFO - ----------Checking firewall status------------
+2025-06-15 15:08:23 - INFO - Environment detection completed and saved to json/detect_result.json
+2025-06-15 15:08:23 - ERROR - ufw active: failed, score +0
+2025-06-15 15:08:23 - ERROR - ufw default policy deny: failed, score +0
+2025-06-15 15:08:23 - ERROR - ufw logging: disabled, score +0
+2025-06-15 15:08:24 - INFO - Checking if auditd is installed...
+2025-06-15 15:08:24 - INFO - auditd installed, +4 score
+2025-06-15 15:08:25 - INFO - Checking audit rules for passwd, shadow, secure...
+2025-06-15 15:08:25 - INFO - All required audit rules found, +3 score
+2025-06-15 15:08:25 - INFO - Checking logrotate for audit logs...
+2025-06-15 15:08:25 - WARNING - No logrotate config found for audit logs
+2025-06-15 15:08:25 - INFO - Checking if update cache exists...
+2025-06-15 15:08:25 - INFO - Update cache exists, +7 score
+2025-06-15 15:08:25 - INFO - Checking if auto update service is enabled...
+2025-06-15 15:08:25 - INFO - Auto update enabled, +7 score
+2025-06-15 15:08:25 - INFO - Checking if update log file exists...
+2025-06-15 15:08:25 - INFO - Update log exists, +6 score
+2025-06-15 15:08:26 - INFO - Checking if SSH is bound to 0.0.0.0
+2025-06-15 15:08:26 - INFO - SSH bound to public interface, score 0
+2025-06-15 15:08:26 - INFO - Checking if Telnet service exists
+2025-06-15 15:08:26 - INFO - Telnet not enabled, score 4
+2025-06-15 15:08:26 - INFO - Checking if FTP service installed
+2025-06-15 15:08:26 - INFO - FTP not installed, score 4
+2025-06-15 15:08:27 - INFO - Checking SSH root login...
+2025-06-15 15:08:27 - INFO - Root login disabled, +8 score
+2025-06-15 15:08:28 - INFO - Checking SSH empty passwords...
+2025-06-15 15:08:28 - INFO - Empty passwords disabled, +7 score
+2025-06-15 15:08:28 - INFO - Checking SSH MaxAuthTries...
+2025-06-15 15:08:28 - INFO - MaxAuthTries <= 4, +5 score
+2025-06-15 15:08:28 - INFO - Account security audit completed. Total score: 69 (the total score is 100)
+2025-06-15 15:08:28 - INFO - --------- All scanning completed successfully-----------------
+2025-06-15 15:17:05 - INFO - ---------------------开始扫描-----------------------
+2025-06-15 15:17:07 - INFO - ----------检查账户板块------------
+2025-06-15 15:17:07 - INFO - hecking for users with empty passwords...
+2025-06-15 15:17:07 - INFO - No empty password users found, success, score 8
+2025-06-15 15:17:07 - INFO - Checking for non-root UID 0 users...
+2025-06-15 15:17:07 - INFO - No non-root UID 0 users found, success, score 6
+2025-06-15 15:17:07 - INFO - Checking for risky sudoers...
+2025-06-15 15:17:07 - ERROR - Risky sudoers found (excluding current user): ['beibei'], score 0
+2025-06-15 15:17:07 - INFO - ----------检查防火墙板块------------
+2025-06-15 15:17:07 - INFO - Environment detection completed and saved to json/detect_result.json
+2025-06-15 15:17:07 - ERROR - ufw active: failed, score +0
+2025-06-15 15:17:07 - ERROR - ufw default policy deny: failed, score +0
+2025-06-15 15:17:07 - ERROR - ufw logging: disabled, score +0
+2025-06-15 15:17:08 - INFO - ----------检查日志审计板块------------
+2025-06-15 15:17:08 - INFO - Checking if auditd is installed...
+2025-06-15 15:17:08 - INFO - auditd installed, +4 score
+2025-06-15 15:17:08 - INFO - Checking audit rules for passwd, shadow, secure...
+2025-06-15 15:17:08 - INFO - All required audit rules found, +3 score
+2025-06-15 15:17:08 - INFO - Checking logrotate for audit logs...
+2025-06-15 15:17:08 - WARNING - No logrotate config found for audit logs
+2025-06-15 15:17:08 - INFO - ----------检查补丁板块------------
+2025-06-15 15:17:08 - INFO - Checking if update cache exists...
+2025-06-15 15:17:08 - INFO - Update cache exists, +7 score
+2025-06-15 15:17:08 - INFO - Checking if auto update service is enabled...
+2025-06-15 15:17:08 - INFO - Auto update enabled, +7 score
+2025-06-15 15:17:08 - INFO - Checking if update log file exists...
+2025-06-15 15:17:08 - INFO - Update log exists, +6 score
+2025-06-15 15:17:09 - INFO - ----------检查端口扫描板块------------
+2025-06-15 15:17:09 - INFO - Checking if SSH is bound to 0.0.0.0
+2025-06-15 15:17:09 - INFO - SSH bound to public interface, score 0
+2025-06-15 15:17:09 - INFO - Checking if Telnet service exists
+2025-06-15 15:17:09 - INFO - Telnet not enabled, score 4
+2025-06-15 15:17:09 - INFO - Checking if FTP service installed
+2025-06-15 15:17:09 - INFO - FTP not installed, score 4
+2025-06-15 15:17:11 - INFO - ----------检查ssh板块------------
+2025-06-15 15:17:11 - INFO - Checking SSH root login...
+2025-06-15 15:17:11 - INFO - Root login disabled, +8 score
+2025-06-15 15:17:12 - INFO - Checking SSH empty passwords...
+2025-06-15 15:17:12 - INFO - Empty passwords disabled, +7 score
+2025-06-15 15:17:13 - INFO - Checking SSH MaxAuthTries...
+2025-06-15 15:17:13 - INFO - MaxAuthTries <= 4, +5 score
+2025-06-15 15:17:13 - INFO - Account security audit completed. Total score: 69 (the total score is 100)
+2025-06-15 15:17:13 - INFO - --------- All scanning completed successfully-----------------
+2025-06-15 15:18:52 - INFO - ---[dryrun] Starting simulated fixes (no changes will be applied)---
+2025-06-15 15:18:52 - INFO - [dryrun] Empty password check: No issues detected, no action needed
+2025-06-15 15:18:52 - INFO - [dryrun] UID 0 users check: No issues detected, no action needed
+2025-06-15 15:18:52 - INFO - [dryrun] Risky sudoers check: Issue detected, executing simulated fix
+2025-06-15 15:18:52 - INFO - [dryrun] 从 sudo, wheel, admin 组移除无关成员: ['beibei']
+2025-06-15 15:18:52 - INFO - [dryrun] Firewall check: Issue detected, executing simulated fix
+2025-06-15 15:18:52 - INFO - ----------开始防火墙修复流程------------
+2025-06-15 15:18:52 - INFO - [dryrun] 将检查并配置 ufw
+2025-06-15 15:18:52 - INFO - [dryrun] ufw 服务将被启用并设置为开机自启
+2025-06-15 15:18:52 - INFO - [dryrun] 默认策略将设置为拒绝（如存在安全风险）
+2025-06-15 15:18:52 - INFO - [dryrun] ufw 日志将被启用（如果未开启）
+2025-06-15 15:18:52 - INFO - [dryrun] Auditd installation check: No issues detected, no action needed
+2025-06-15 15:18:52 - INFO - [dryrun] Audit rules check: No issues detected, no action needed
+2025-06-15 15:18:52 - INFO - [dryrun] Audit logrotate check: No issues detected, no action needed
+2025-06-15 15:18:52 - INFO - [dryrun] Audit update_log check: No issues detected, no action needed
+2025-06-15 15:18:52 - INFO - [dryrun] Audit update_cache check: No issues detected, no action needed
+2025-06-15 15:18:52 - INFO - [dryrun] Audit update_service check: No issues detected, no action needed
+2025-06-15 15:18:52 - INFO - [dryrun] Fix SSH bind address to localhost: No issues detected, no action needed
+2025-06-15 15:18:52 - INFO - [dryrun] Disable and remove Telnet service: No issues detected, no action needed
+2025-06-15 15:18:52 - INFO - [dryrun] Disable and remove FTP service: No issues detected, no action needed
+2025-06-15 15:18:52 - INFO - [dryrun] Audit ssh_root check: No issues detected, no action needed
+2025-06-15 15:18:52 - INFO - [dryrun] Audit ssh_passwd_check: No issues detected, no action needed
+2025-06-15 15:18:52 - INFO - [dryrun] Audit ssh_max check: No issues detected, no action needed
+2025-06-15 15:18:52 - INFO - -----[dryrun] All simulated fixes completed successfully-----
+2025-06-15 15:22:21 - INFO - ---[dryrun] Starting simulated fixes (no changes will be applied)---
+2025-06-15 15:22:21 - INFO - [dryrun] Empty password check: No issues detected, no action needed
+2025-06-15 15:22:21 - INFO - [dryrun] UID 0 users check: No issues detected, no action needed
+2025-06-15 15:22:21 - INFO - Risky sudoers check: 检测到问题，执行模拟修复
+2025-06-15 15:22:21 - INFO - [dryrun] 从 sudo, wheel, admin 组移除无关成员: ['beibei']
+2025-06-15 15:22:21 - INFO - Firewall check: 检测到问题，执行模拟修复
+2025-06-15 15:22:21 - INFO - ----------开始防火墙修复流程------------
+2025-06-15 15:22:21 - INFO - [dryrun] 将检查并配置 ufw
+2025-06-15 15:22:21 - INFO - [dryrun] ufw 服务将被启用并设置为开机自启
+2025-06-15 15:22:21 - INFO - [dryrun] 默认策略将设置为拒绝（如存在安全风险）
+2025-06-15 15:22:21 - INFO - [dryrun] ufw 日志将被启用（如果未开启）
+2025-06-15 15:22:21 - INFO - [dryrun] Auditd installation check: No issues detected, no action needed
+2025-06-15 15:22:21 - INFO - [dryrun] Audit rules check: No issues detected, no action needed
+2025-06-15 15:22:21 - INFO - [dryrun] Audit logrotate check: No issues detected, no action needed
+2025-06-15 15:22:21 - INFO - [dryrun] Audit update_log check: No issues detected, no action needed
+2025-06-15 15:22:21 - INFO - [dryrun] Audit update_cache check: No issues detected, no action needed
+2025-06-15 15:22:21 - INFO - [dryrun] Audit update_service check: No issues detected, no action needed
+2025-06-15 15:22:21 - INFO - [dryrun] Fix SSH bind address to localhost: No issues detected, no action needed
+2025-06-15 15:22:21 - INFO - [dryrun] Disable and remove Telnet service: No issues detected, no action needed
+2025-06-15 15:22:21 - INFO - [dryrun] Disable and remove FTP service: No issues detected, no action needed
+2025-06-15 15:22:21 - INFO - [dryrun] Audit ssh_root check: No issues detected, no action needed
+2025-06-15 15:22:21 - INFO - [dryrun] Audit ssh_passwd_check: No issues detected, no action needed
+2025-06-15 15:22:21 - INFO - [dryrun] Audit ssh_max check: No issues detected, no action needed
+2025-06-15 15:22:21 - INFO - -----[dryrun] All simulated fixes completed successfully-----
+2025-06-15 15:22:33 - INFO - ---[dryrun] Starting simulated fixes (no changes will be applied)---
+2025-06-15 15:22:33 - INFO - Empty password check: 没有检测到问题，跳过
+2025-06-15 15:22:33 - INFO - UID 0 users check: 没有检测到问题，跳过
+2025-06-15 15:22:33 - INFO - Risky sudoers check: 检测到问题，执行模拟修复
+2025-06-15 15:22:33 - INFO - [dryrun] 从 sudo, wheel, admin 组移除无关成员: ['beibei']
+2025-06-15 15:22:33 - INFO - Firewall check: 检测到问题，执行模拟修复
+2025-06-15 15:22:33 - INFO - ----------开始防火墙修复流程------------
+2025-06-15 15:22:33 - INFO - [dryrun] 将检查并配置 ufw
+2025-06-15 15:22:33 - INFO - [dryrun] ufw 服务将被启用并设置为开机自启
+2025-06-15 15:22:33 - INFO - [dryrun] 默认策略将设置为拒绝（如存在安全风险）
+2025-06-15 15:22:33 - INFO - [dryrun] ufw 日志将被启用（如果未开启）
+2025-06-15 15:22:33 - INFO - Auditd installation check: 没有检测到问题，跳过
+2025-06-15 15:22:33 - INFO - Audit rules check: 没有检测到问题，跳过
+2025-06-15 15:22:33 - INFO - Audit logrotate check: 没有检测到问题，跳过
+2025-06-15 15:22:33 - INFO - Audit update_log check: 没有检测到问题，跳过
+2025-06-15 15:22:33 - INFO - Audit update_cache check: 没有检测到问题，跳过
+2025-06-15 15:22:33 - INFO - Audit update_service check: 没有检测到问题，跳过
+2025-06-15 15:22:33 - INFO - Fix SSH bind address to localhost: 没有检测到问题，跳过
+2025-06-15 15:22:33 - INFO - Disable and remove Telnet service: 没有检测到问题，跳过
+2025-06-15 15:22:33 - INFO - Disable and remove FTP service: 没有检测到问题，跳过
+2025-06-15 15:22:33 - INFO - Audit ssh_root check: 没有检测到问题，跳过
+2025-06-15 15:22:33 - INFO - Audit ssh_passwd_check: 没有检测到问题，跳过
+2025-06-15 15:22:33 - INFO - Audit ssh_max check: 没有检测到问题，跳过
+2025-06-15 15:22:33 - INFO - -----[dryrun] All simulated fixes completed successfully-----
+2025-06-15 15:24:04 - INFO - ------开始模拟修复，修复步骤不会被真实应用----------
+2025-06-15 15:24:04 - INFO - Empty password check: 没有检测到问题，跳过
+2025-06-15 15:24:04 - INFO - UID 0 users check: 没有检测到问题，跳过
+2025-06-15 15:24:04 - INFO - Risky sudoers check: 检测到问题，执行模拟修复
+2025-06-15 15:24:04 - INFO - [dryrun] 从 sudo, wheel, admin 组移除无关成员: ['beibei']
+2025-06-15 15:24:04 - INFO - Firewall check: 检测到问题，执行模拟修复
+2025-06-15 15:24:04 - INFO - ----------开始防火墙修复流程------------
+2025-06-15 15:24:04 - INFO - [dryrun] 将检查并配置 ufw
+2025-06-15 15:24:04 - INFO - [dryrun] ufw 服务将被启用并设置为开机自启
+2025-06-15 15:24:04 - INFO - [dryrun] 默认策略将设置为拒绝（如存在安全风险）
+2025-06-15 15:24:04 - INFO - [dryrun] ufw 日志将被启用（如果未开启）
+2025-06-15 15:24:04 - INFO - Auditd installation check: 没有检测到问题，跳过
+2025-06-15 15:24:04 - INFO - Audit rules check: 没有检测到问题，跳过
+2025-06-15 15:24:04 - INFO - Audit logrotate check: 没有检测到问题，跳过
+2025-06-15 15:24:04 - INFO - Audit update_log check: 没有检测到问题，跳过
+2025-06-15 15:24:04 - INFO - Audit update_cache check: 没有检测到问题，跳过
+2025-06-15 15:24:04 - INFO - Audit update_service check: 没有检测到问题，跳过
+2025-06-15 15:24:04 - INFO - Fix SSH bind address to localhost: 没有检测到问题，跳过
+2025-06-15 15:24:04 - INFO - Disable and remove Telnet service: 没有检测到问题，跳过
+2025-06-15 15:24:04 - INFO - Disable and remove FTP service: 没有检测到问题，跳过
+2025-06-15 15:24:04 - INFO - Audit ssh_root check: 没有检测到问题，跳过
+2025-06-15 15:24:04 - INFO - Audit ssh_passwd_check: 没有检测到问题，跳过
+2025-06-15 15:24:04 - INFO - Audit ssh_max check: 没有检测到问题，跳过
+2025-06-15 15:24:04 - INFO - -----All simulated fixes completed successfully-----
+2025-06-15 15:25:03 - INFO - ------开始模拟修复，修复步骤不会被真实应用----------
+2025-06-15 15:25:03 - INFO - Empty password check: 没有检测到问题，跳过
+2025-06-15 15:25:03 - INFO - UID 0 users check: 没有检测到问题，跳过
+2025-06-15 15:25:03 - INFO - Risky sudoers check: 检测到问题，执行模拟修复
+2025-06-15 15:25:03 - INFO - [dryrun] 从 sudo, wheel, admin 组移除无关成员: ['beibei']
+2025-06-15 15:25:03 - INFO - Firewall check: 检测到问题，执行模拟修复
+2025-06-15 15:25:03 - INFO - [dryrun] 将检查并配置 ufw
+2025-06-15 15:25:03 - INFO - [dryrun] ufw 服务将被启用并设置为开机自启
+2025-06-15 15:25:03 - INFO - [dryrun] 默认策略将设置为拒绝（如存在安全风险）
+2025-06-15 15:25:03 - INFO - [dryrun] ufw 日志将被启用（如果未开启）
+2025-06-15 15:25:03 - INFO - Auditd installation check: 没有检测到问题，跳过
+2025-06-15 15:25:03 - INFO - Audit rules check: 没有检测到问题，跳过
+2025-06-15 15:25:03 - INFO - Audit logrotate check: 没有检测到问题，跳过
+2025-06-15 15:25:03 - INFO - Audit update_log check: 没有检测到问题，跳过
+2025-06-15 15:25:03 - INFO - Audit update_cache check: 没有检测到问题，跳过
+2025-06-15 15:25:03 - INFO - Audit update_service check: 没有检测到问题，跳过
+2025-06-15 15:25:03 - INFO - Fix SSH bind address to localhost: 没有检测到问题，跳过
+2025-06-15 15:25:03 - INFO - Disable and remove Telnet service: 没有检测到问题，跳过
+2025-06-15 15:25:03 - INFO - Disable and remove FTP service: 没有检测到问题，跳过
+2025-06-15 15:25:03 - INFO - Audit ssh_root check: 没有检测到问题，跳过
+2025-06-15 15:25:03 - INFO - Audit ssh_passwd_check: 没有检测到问题，跳过
+2025-06-15 15:25:03 - INFO - Audit ssh_max check: 没有检测到问题，跳过
+2025-06-15 15:25:03 - INFO - -----All simulated fixes completed successfully-----
+2025-06-15 15:36:12 - INFO - ---------------------开始扫描-----------------------
+2025-06-15 15:36:14 - INFO - ----------检查账户板块------------
+2025-06-15 15:36:14 - INFO - hecking for users with empty passwords...
+2025-06-15 15:36:14 - INFO - No empty password users found, success, score 8
+2025-06-15 15:36:14 - INFO - Checking for non-root UID 0 users...
+2025-06-15 15:36:14 - INFO - No non-root UID 0 users found, success, score 6
+2025-06-15 15:36:14 - INFO - Checking for risky sudoers...
+2025-06-15 15:36:14 - ERROR - Risky sudoers found (excluding current user): ['beibei'], score 0
+2025-06-15 15:36:15 - INFO - ----------检查防火墙板块------------
+2025-06-15 15:36:15 - INFO - Environment detection completed and saved to json/detect_result.json
+2025-06-15 15:36:15 - ERROR - ufw active: failed, score +0
+2025-06-15 15:36:15 - ERROR - ufw default policy deny: failed, score +0
+2025-06-15 15:36:15 - ERROR - ufw logging: disabled, score +0
+2025-06-15 15:36:15 - INFO - ----------检查日志审计板块------------
+2025-06-15 15:36:15 - INFO - Checking if auditd is installed...
+2025-06-15 15:36:15 - INFO - auditd installed, +4 score
+2025-06-15 15:36:16 - INFO - Checking audit rules for passwd, shadow, secure...
+2025-06-15 15:36:16 - INFO - All required audit rules found, +3 score
+2025-06-15 15:36:16 - INFO - Checking logrotate for audit logs...
+2025-06-15 15:36:16 - WARNING - No logrotate config found for audit logs
+2025-06-15 15:36:16 - INFO - ----------检查补丁板块------------
+2025-06-15 15:36:16 - INFO - Checking if update cache exists...
+2025-06-15 15:36:16 - INFO - Update cache exists, +7 score
+2025-06-15 15:36:16 - INFO - Checking if auto update service is enabled...
+2025-06-15 15:36:16 - INFO - Auto update enabled, +7 score
+2025-06-15 15:36:16 - INFO - Checking if update log file exists...
+2025-06-15 15:36:16 - INFO - Update log exists, +6 score
+2025-06-15 15:36:17 - INFO - ----------检查端口扫描板块------------
+2025-06-15 15:36:17 - INFO - Checking if SSH is bound to 0.0.0.0
+2025-06-15 15:36:17 - INFO - SSH bound to public interface, score 0
+2025-06-15 15:36:17 - INFO - Checking if Telnet service exists
+2025-06-15 15:36:17 - INFO - Telnet not enabled, score 4
+2025-06-15 15:36:17 - INFO - Checking if FTP service installed
+2025-06-15 15:36:17 - INFO - FTP not installed, score 4
+2025-06-15 15:36:17 - INFO - ----------检查ssh板块------------
+2025-06-15 15:36:17 - INFO - Checking SSH root login...
+2025-06-15 15:36:17 - INFO - Root login disabled, +8 score
+2025-06-15 15:36:19 - INFO - Checking SSH empty passwords...
+2025-06-15 15:36:19 - INFO - Empty passwords disabled, +7 score
+2025-06-15 15:36:19 - INFO - Checking SSH MaxAuthTries...
+2025-06-15 15:36:19 - INFO - MaxAuthTries <= 4, +5 score
+2025-06-15 15:36:19 - INFO - Account security audit completed. Total score: 69 (总分为100分)
+2025-06-15 15:36:19 - INFO - --------- All scanning completed successfully-----------------
+2025-06-15 15:36:31 - INFO - -----------------开始模拟修复----------------
+2025-06-15 15:36:31 - INFO - Empty password check: 没有检测到问题，跳过
+2025-06-15 15:36:31 - INFO - UID 0 users check: 没有检测到问题，跳过
+2025-06-15 15:36:31 - INFO - Risky sudoers check: 存在隐患，执行模拟修复
+2025-06-15 15:36:31 - INFO - [dryrun] 从 sudo, wheel, admin 组移除无关成员: ['beibei']
+2025-06-15 15:36:31 - INFO - Firewall check: 存在隐患，执行模拟修复
+2025-06-15 15:36:31 - INFO - [dryrun] 将检查并配置 ufw
+2025-06-15 15:36:31 - INFO - [dryrun] ufw 服务将被启用并设置为开机自启
+2025-06-15 15:36:31 - INFO - [dryrun] 默认策略将设置为拒绝
+2025-06-15 15:36:31 - INFO - [dryrun] ufw 日志将被启用
+2025-06-15 15:36:31 - INFO - Auditd installation check: 没有检测到问题，跳过
+2025-06-15 15:36:31 - INFO - Audit rules check: 存在隐患，执行模拟修复
+2025-06-15 15:36:31 - INFO - [dryrun]将每个 required_rule 写入 hardening.rules 文件；执行 augenrules 生成最终规则并重启 auditd 服务。
+2025-06-15 15:36:31 - INFO - Audit logrotate check: 没有检测到问题，跳过
+2025-06-15 15:36:31 - INFO - Audit update_log check: 没有检测到问题，跳过
+2025-06-15 15:36:31 - INFO - Audit update_cache check: 没有检测到问题，跳过
+2025-06-15 15:36:31 - INFO - Audit update_service check: 没有检测到问题，跳过
+2025-06-15 15:36:31 - INFO - Fix SSH bind address to localhost: 没有检测到问题，跳过
+2025-06-15 15:36:31 - INFO - Disable and remove Telnet service: 没有检测到问题，跳过
+2025-06-15 15:36:31 - INFO - Disable and remove FTP service: 没有检测到问题，跳过
+2025-06-15 15:36:31 - INFO - Audit ssh_root check: 没有检测到问题，跳过
+2025-06-15 15:36:31 - INFO - Audit ssh_passwd_check: 没有检测到问题，跳过
+2025-06-15 15:36:31 - INFO - Audit ssh_max check: 没有检测到问题，跳过
+2025-06-15 15:36:31 - INFO - -----All simulated fixes completed successfully-----
+2025-06-15 15:37:31 - INFO - ---------------------开始扫描-----------------------
+2025-06-15 15:37:33 - INFO - ----------检查账户板块------------
+2025-06-15 15:37:33 - INFO - hecking for users with empty passwords...
+2025-06-15 15:37:33 - INFO - No empty password users found, success, score 8
+2025-06-15 15:37:33 - INFO - Checking for non-root UID 0 users...
+2025-06-15 15:37:33 - INFO - No non-root UID 0 users found, success, score 6
+2025-06-15 15:37:33 - INFO - Checking for risky sudoers...
+2025-06-15 15:37:33 - ERROR - Risky sudoers found (excluding current user): ['beibei'], score 0
+2025-06-15 15:37:33 - INFO - ----------检查防火墙板块------------
+2025-06-15 15:37:33 - INFO - Environment detection completed and saved to json/detect_result.json
+2025-06-15 15:37:33 - ERROR - ufw active: failed, score +0
+2025-06-15 15:37:33 - ERROR - ufw default policy deny: failed, score +0
+2025-06-15 15:37:33 - ERROR - ufw logging: disabled, score +0
+2025-06-15 15:37:33 - INFO - ----------检查日志审计板块------------
+2025-06-15 15:37:33 - INFO - Checking if auditd is installed...
+2025-06-15 15:37:33 - INFO - auditd installed, +4 score
+2025-06-15 15:37:34 - INFO - Checking audit rules for passwd, shadow, secure...
+2025-06-15 15:37:34 - INFO - All required audit rules found, +3 score
+2025-06-15 15:37:34 - INFO - Checking logrotate for audit logs...
+2025-06-15 15:37:34 - WARNING - No logrotate config found for audit logs
+2025-06-15 15:37:34 - INFO - ----------检查补丁板块------------
+2025-06-15 15:37:34 - INFO - Checking if update cache exists...
+2025-06-15 15:37:34 - INFO - Update cache exists, +7 score
+2025-06-15 15:37:34 - INFO - Checking if auto update service is enabled...
+2025-06-15 15:37:34 - INFO - Auto update enabled, +7 score
+2025-06-15 15:37:34 - INFO - Checking if update log file exists...
+2025-06-15 15:37:34 - INFO - Update log exists, +6 score
+2025-06-15 15:37:35 - INFO - ----------检查端口扫描板块------------
+2025-06-15 15:37:35 - INFO - Checking if SSH is bound to 0.0.0.0
+2025-06-15 15:37:35 - INFO - SSH bound to public interface, score 0
+2025-06-15 15:37:35 - INFO - Checking if Telnet service exists
+2025-06-15 15:37:35 - INFO - Telnet not enabled, score 4
+2025-06-15 15:37:35 - INFO - Checking if FTP service installed
+2025-06-15 15:37:35 - INFO - FTP not installed, score 4
+2025-06-15 15:37:36 - INFO - ----------检查ssh板块------------
+2025-06-15 15:37:36 - INFO - Checking SSH root login...
+2025-06-15 15:37:36 - INFO - Root login disabled, +8 score
+2025-06-15 15:37:37 - INFO - Checking SSH empty passwords...
+2025-06-15 15:37:37 - INFO - Empty passwords disabled, +7 score
+2025-06-15 15:37:37 - INFO - Checking SSH MaxAuthTries...
+2025-06-15 15:37:37 - INFO - MaxAuthTries <= 4, +5 score
+2025-06-15 15:37:37 - INFO - Account security audit completed. Total score: 69 (总分为100分)
+2025-06-15 15:37:37 - INFO - --------- All scanning completed successfully-----------------
+2025-06-15 15:37:50 - INFO - -----------------开始模拟修复----------------
+2025-06-15 15:37:50 - INFO - Empty password check: 没有检测到问题，跳过
+2025-06-15 15:37:50 - INFO - UID 0 users check: 没有检测到问题，跳过
+2025-06-15 15:37:50 - INFO - Risky sudoers check: 存在隐患，执行模拟修复
+2025-06-15 15:37:50 - INFO - [dryrun] 从 sudo, wheel, admin 组移除无关成员: ['beibei']
+2025-06-15 15:37:50 - INFO - Firewall check: 存在隐患，执行模拟修复
+2025-06-15 15:37:50 - INFO - [dryrun] 将检查并配置 ufw
+2025-06-15 15:37:50 - INFO - [dryrun] ufw 服务将被启用并设置为开机自启
+2025-06-15 15:37:50 - INFO - [dryrun] 默认策略将设置为拒绝
+2025-06-15 15:37:50 - INFO - [dryrun] ufw 日志将被启用
+2025-06-15 15:37:50 - INFO - Auditd installation check: 没有检测到问题，跳过
+2025-06-15 15:37:50 - INFO - Audit rules check: 存在隐患，执行模拟修复
+2025-06-15 15:37:50 - INFO - [dryrun]将每个 required_rule 写入 hardening.rules 文件；执行 augenrules 生成最终规则并重启 auditd 服务。
+2025-06-15 15:37:50 - INFO - Audit logrotate check: 没有检测到问题，跳过
+2025-06-15 15:37:50 - INFO - Audit update_log check: 没有检测到问题，跳过
+2025-06-15 15:37:50 - INFO - Audit update_cache check: 没有检测到问题，跳过
+2025-06-15 15:37:50 - INFO - Audit update_service check: 没有检测到问题，跳过
+2025-06-15 15:37:50 - INFO - Fix SSH bind address to localhost: 没有检测到问题，跳过
+2025-06-15 15:37:50 - INFO - Disable and remove Telnet service: 没有检测到问题，跳过
+2025-06-15 15:37:50 - INFO - Disable and remove FTP service: 没有检测到问题，跳过
+2025-06-15 15:37:50 - INFO - Audit ssh_root check: 没有检测到问题，跳过
+2025-06-15 15:37:50 - INFO - Audit ssh_passwd_check: 没有检测到问题，跳过
+2025-06-15 15:37:50 - INFO - Audit ssh_max check: 没有检测到问题，跳过
+2025-06-15 15:37:50 - INFO - -----All simulated fixes completed successfully-----
+2025-06-15 15:48:36 - INFO - ---------------------开始扫描-----------------------
+2025-06-15 15:48:38 - INFO - ----------检查账户板块------------
+2025-06-15 15:48:38 - INFO - hecking for users with empty passwords...
+2025-06-15 15:48:38 - INFO - No empty password users found, success, score 8
+2025-06-15 15:48:38 - INFO - Checking for non-root UID 0 users...
+2025-06-15 15:48:38 - INFO - No non-root UID 0 users found, success, score 6
+2025-06-15 15:48:38 - INFO - Checking for risky sudoers...
+2025-06-15 15:48:38 - ERROR - Risky sudoers found (excluding current user): ['beibei'], score 0
+2025-06-15 15:48:39 - INFO - ----------检查防火墙板块------------
+2025-06-15 15:48:39 - INFO - Environment detection completed and saved to json/detect_result.json
+2025-06-15 15:48:39 - ERROR - ufw active: failed, score +0
+2025-06-15 15:48:39 - ERROR - ufw default policy deny: failed, score +0
+2025-06-15 15:48:39 - ERROR - ufw logging: disabled, score +0
+2025-06-15 15:48:40 - INFO - ----------检查日志审计板块------------
+2025-06-15 15:48:40 - INFO - Checking if auditd is installed...
+2025-06-15 15:48:40 - INFO - auditd installed, +4 score
+2025-06-15 15:48:40 - INFO - Checking audit rules for passwd, shadow, secure...
+2025-06-15 15:48:40 - INFO - All required audit rules found, +3 score
+2025-06-15 15:48:40 - INFO - Checking logrotate for audit logs...
+2025-06-15 15:48:40 - WARNING - No logrotate config found for audit logs
+2025-06-15 15:48:40 - INFO - ----------检查补丁板块------------
+2025-06-15 15:48:40 - INFO - Checking if update cache exists...
+2025-06-15 15:48:40 - INFO - Update cache exists, +7 score
+2025-06-15 15:48:40 - INFO - Checking if auto update service is enabled...
+2025-06-15 15:48:40 - INFO - Auto update enabled, +7 score
+2025-06-15 15:48:40 - INFO - Checking if update log file exists...
+2025-06-15 15:48:40 - INFO - Update log exists, +6 score
+2025-06-15 15:48:41 - INFO - ----------检查端口扫描板块------------
+2025-06-15 15:48:41 - INFO - Checking if SSH is bound to 0.0.0.0
+2025-06-15 15:48:41 - INFO - SSH bound to public interface, score 0
+2025-06-15 15:48:41 - INFO - Checking if Telnet service exists
+2025-06-15 15:48:41 - INFO - Telnet not enabled, score 4
+2025-06-15 15:48:41 - INFO - Checking if FTP service installed
+2025-06-15 15:48:41 - INFO - FTP not installed, score 4
+2025-06-15 15:48:42 - INFO - ----------检查ssh板块------------
+2025-06-15 15:48:42 - INFO - Checking SSH root login...
+2025-06-15 15:48:42 - INFO - Root login disabled, +8 score
+2025-06-15 15:48:44 - INFO - Checking SSH empty passwords...
+2025-06-15 15:48:44 - INFO - Empty passwords disabled, +7 score
+2025-06-15 15:48:45 - INFO - Checking SSH MaxAuthTries...
+2025-06-15 15:48:45 - INFO - MaxAuthTries <= 4, +5 score
+2025-06-15 15:48:45 - INFO - Account security audit completed. Total score: 69 (总分为100分)
+2025-06-15 15:48:45 - INFO - --------- All scanning completed successfully-----------------
+2025-06-15 15:48:54 - INFO - -----------------开始模拟修复----------------
+2025-06-15 15:48:54 - INFO - Empty password check: 没有检测到问题，跳过
+2025-06-15 15:48:54 - INFO - UID 0 users check: 没有检测到问题，跳过
+2025-06-15 15:48:54 - INFO - Risky sudoers check: 存在隐患，执行模拟修复
+2025-06-15 15:48:54 - INFO - [dryrun] 从 sudo, wheel, admin 组移除无关成员: ['beibei']
+2025-06-15 15:48:54 - INFO - Firewall check: 存在隐患，执行模拟修复
+2025-06-15 15:48:54 - INFO - [dryrun] 将检查并配置 ufw
+2025-06-15 15:48:54 - INFO - [dryrun] ufw 服务将被启用并设置为开机自启
+2025-06-15 15:48:54 - INFO - [dryrun] 默认策略将设置为拒绝
+2025-06-15 15:48:54 - INFO - [dryrun] ufw 日志将被启用
+2025-06-15 15:48:54 - INFO - Auditd installation check: 没有检测到问题，跳过
+2025-06-15 15:48:54 - INFO - Audit rules check: 存在隐患，执行模拟修复
+2025-06-15 15:48:54 - INFO - [dryrun]将每个 required_rule 写入 hardening.rules 文件；执行 augenrules 生成最终规则并重启 auditd 服务。
+2025-06-15 15:48:54 - INFO - Audit logrotate check: 没有检测到问题，跳过
+2025-06-15 15:48:54 - INFO - Audit update_log check: 没有检测到问题，跳过
+2025-06-15 15:48:54 - INFO - Audit update_cache check: 没有检测到问题，跳过
+2025-06-15 15:48:54 - INFO - Audit update_service check: 没有检测到问题，跳过
+2025-06-15 15:48:54 - INFO - Fix SSH bind address to localhost: 没有检测到问题，跳过
+2025-06-15 15:48:54 - INFO - Disable and remove Telnet service: 没有检测到问题，跳过
+2025-06-15 15:48:54 - INFO - Disable and remove FTP service: 没有检测到问题，跳过
+2025-06-15 15:48:54 - INFO - Audit ssh_root check: 没有检测到问题，跳过
+2025-06-15 15:48:54 - INFO - Audit ssh_passwd_check: 没有检测到问题，跳过
+2025-06-15 15:48:54 - INFO - Audit ssh_max check: 没有检测到问题，跳过
+2025-06-15 15:48:54 - INFO - -----All simulated fixes completed successfully-----
+2025-06-15 16:05:11 - INFO - ---------------------开始扫描-----------------------
+2025-06-15 16:05:12 - INFO - ----------检查账户板块------------
+2025-06-15 16:05:12 - INFO - hecking for users with empty passwords...
+2025-06-15 16:05:12 - INFO - No empty password users found, success, score 8
+2025-06-15 16:05:12 - INFO - Checking for non-root UID 0 users...
+2025-06-15 16:05:12 - INFO - No non-root UID 0 users found, success, score 6
+2025-06-15 16:05:12 - INFO - Checking for risky sudoers...
+2025-06-15 16:05:12 - ERROR - Risky sudoers found (excluding current user): ['beibei'], score 0
+2025-06-15 16:05:13 - INFO - ----------检查防火墙板块------------
+2025-06-15 16:05:13 - INFO - Environment detection completed and saved to json/detect_result.json
+2025-06-15 16:05:13 - ERROR - ufw active: failed, score +0
+2025-06-15 16:05:13 - ERROR - ufw default policy deny: failed, score +0
+2025-06-15 16:05:13 - ERROR - ufw logging: disabled, score +0
+2025-06-15 16:05:15 - INFO - ----------检查日志审计板块------------
+2025-06-15 16:05:15 - INFO - Checking if auditd is installed...
+2025-06-15 16:05:15 - INFO - auditd installed, +4 score
+2025-06-15 16:05:16 - INFO - Checking audit rules for passwd, shadow, secure...
+2025-06-15 16:05:16 - INFO - All required audit rules found, +3 score
+2025-06-15 16:05:16 - INFO - Checking logrotate for audit logs...
+2025-06-15 16:05:16 - WARNING - No logrotate config found for audit logs
+2025-06-15 16:05:16 - INFO - ----------检查补丁板块------------
+2025-06-15 16:05:16 - INFO - Checking if update cache exists...
+2025-06-15 16:05:16 - INFO - Update cache exists, +7 score
+2025-06-15 16:05:16 - INFO - Checking if auto update service is enabled...
+2025-06-15 16:05:16 - INFO - Auto update enabled, +7 score
+2025-06-15 16:05:16 - INFO - Checking if update log file exists...
+2025-06-15 16:05:16 - INFO - Update log exists, +6 score
+2025-06-15 16:05:18 - INFO - ----------检查端口扫描板块------------
+2025-06-15 16:05:18 - INFO - Checking if SSH is bound to 0.0.0.0
+2025-06-15 16:05:18 - INFO - SSH bound to public interface, score 0
+2025-06-15 16:05:18 - INFO - Checking if Telnet service exists
+2025-06-15 16:05:18 - INFO - Telnet not enabled, score 4
+2025-06-15 16:05:18 - INFO - Checking if FTP service installed
+2025-06-15 16:05:18 - INFO - FTP not installed, score 4
+2025-06-15 16:06:28 - INFO - ---------------------开始扫描-----------------------
+2025-06-15 16:06:29 - INFO - ----------检查账户板块------------
+2025-06-15 16:06:29 - INFO - hecking for users with empty passwords...
+2025-06-15 16:06:29 - INFO - No empty password users found, success, score 8
+2025-06-15 16:06:29 - INFO - Checking for non-root UID 0 users...
+2025-06-15 16:06:29 - INFO - No non-root UID 0 users found, success, score 6
+2025-06-15 16:06:29 - INFO - Checking for risky sudoers...
+2025-06-15 16:06:29 - ERROR - Risky sudoers found (excluding current user): ['beibei'], score 0
+2025-06-15 16:06:30 - INFO - ----------检查防火墙板块------------
+2025-06-15 16:06:30 - INFO - Environment detection completed and saved to json/detect_result.json
+2025-06-15 16:06:30 - ERROR - ufw active: failed, score +0
+2025-06-15 16:06:30 - ERROR - ufw default policy deny: failed, score +0
+2025-06-15 16:06:30 - ERROR - ufw logging: disabled, score +0
+2025-06-15 16:06:31 - INFO - ----------检查日志审计板块------------
+2025-06-15 16:06:31 - INFO - Checking if auditd is installed...
+2025-06-15 16:06:31 - INFO - auditd installed, +4 score
+2025-06-15 16:06:32 - INFO - Checking audit rules for passwd, shadow, secure...
+2025-06-15 16:06:32 - INFO - All required audit rules found, +3 score
+2025-06-15 16:06:32 - INFO - Checking logrotate for audit logs...
+2025-06-15 16:06:32 - WARNING - No logrotate config found for audit logs
+2025-06-15 16:06:32 - INFO - ----------检查补丁板块------------
+2025-06-15 16:06:32 - INFO - Checking if update cache exists...
+2025-06-15 16:06:32 - INFO - Update cache exists, +7 score
+2025-06-15 16:06:32 - INFO - Checking if auto update service is enabled...
+2025-06-15 16:06:32 - INFO - Auto update enabled, +7 score
+2025-06-15 16:06:32 - INFO - Checking if update log file exists...
+2025-06-15 16:06:32 - INFO - Update log exists, +6 score
+2025-06-15 16:06:33 - INFO - ----------检查端口扫描板块------------
+2025-06-15 16:06:33 - INFO - Checking if SSH is bound to 0.0.0.0
+2025-06-15 16:06:33 - INFO - SSH bound to public interface, score 0
+2025-06-15 16:06:33 - INFO - Checking if Telnet service exists
+2025-06-15 16:06:33 - INFO - Telnet not enabled, score 4
+2025-06-15 16:06:33 - INFO - Checking if FTP service installed
+2025-06-15 16:06:33 - INFO - FTP not installed, score 4
+2025-06-15 16:06:34 - INFO - ----------检查ssh板块------------
+2025-06-15 16:06:34 - INFO - Checking SSH root login...
+2025-06-15 16:06:34 - INFO - Root login disabled, +8 score
+2025-06-15 16:06:35 - INFO - Checking SSH empty passwords...
+2025-06-15 16:06:35 - INFO - Empty passwords disabled, +7 score
+2025-06-15 16:06:36 - INFO - Checking SSH MaxAuthTries...
+2025-06-15 16:06:36 - INFO - MaxAuthTries <= 4, +5 score
+2025-06-15 16:06:36 - INFO - Account security audit completed. Total score: 69 (总分为100分)
+2025-06-15 16:06:36 - INFO - --------- All scanning completed successfully-----------------
+2025-06-15 16:06:47 - INFO - -----------------开始模拟修复----------------
+2025-06-15 16:06:47 - INFO - Empty password check: 没有检测到问题，跳过
+2025-06-15 16:06:47 - INFO - UID 0 users check: 没有检测到问题，跳过
+2025-06-15 16:06:47 - INFO - Risky sudoers check: 存在隐患，执行模拟修复
+2025-06-15 16:06:47 - INFO - [dryrun] 从 sudo, wheel, admin 组移除无关成员: ['beibei']
+2025-06-15 16:06:47 - INFO - Firewall check: 存在隐患，执行模拟修复
+2025-06-15 16:06:47 - INFO - [dryrun] 将检查并配置 ufw
+2025-06-15 16:06:47 - INFO - [dryrun] ufw 服务将被启用并设置为开机自启
+2025-06-15 16:06:47 - INFO - [dryrun] 默认策略将设置为拒绝
+2025-06-15 16:06:47 - INFO - [dryrun] ufw 日志将被启用
+2025-06-15 16:06:47 - INFO - Auditd installation check: 没有检测到问题，跳过
+2025-06-15 16:06:47 - INFO - Audit rules check: 存在隐患，执行模拟修复
+2025-06-15 16:06:47 - INFO - [dryrun]将每个 required_rule 写入 hardening.rules 文件；执行 augenrules 生成最终规则并重启 auditd 服务。
+2025-06-15 16:06:47 - INFO - Audit logrotate check: 没有检测到问题，跳过
+2025-06-15 16:06:47 - INFO - Audit update_log check: 没有检测到问题，跳过
+2025-06-15 16:06:47 - INFO - Audit update_cache check: 没有检测到问题，跳过
+2025-06-15 16:06:47 - INFO - Audit update_service check: 没有检测到问题，跳过
+2025-06-15 16:06:47 - INFO - Fix SSH bind address to localhost: 没有检测到问题，跳过
+2025-06-15 16:06:47 - INFO - Disable and remove Telnet service: 没有检测到问题，跳过
+2025-06-15 16:06:47 - INFO - Disable and remove FTP service: 没有检测到问题，跳过
+2025-06-15 16:06:47 - INFO - Audit ssh_root check: 没有检测到问题，跳过
+2025-06-15 16:06:47 - INFO - Audit ssh_passwd_check: 没有检测到问题，跳过
+2025-06-15 16:06:47 - INFO - Audit ssh_max check: 没有检测到问题，跳过
+2025-06-15 16:06:47 - INFO - -----All simulated fixes completed successfully-----
+2025-06-15 16:08:20 - INFO - ---------------------开始扫描-----------------------
+2025-06-15 16:08:21 - INFO - ----------检查账户板块------------
+2025-06-15 16:08:21 - INFO - hecking for users with empty passwords...
+2025-06-15 16:08:21 - INFO - No empty password users found, success, score 8
+2025-06-15 16:08:21 - INFO - Checking for non-root UID 0 users...
+2025-06-15 16:08:21 - INFO - No non-root UID 0 users found, success, score 6
+2025-06-15 16:08:21 - INFO - Checking for risky sudoers...
+2025-06-15 16:08:21 - ERROR - Risky sudoers found (excluding current user): ['beibei'], score 0
+2025-06-15 16:08:22 - INFO - ----------检查防火墙板块------------
+2025-06-15 16:08:22 - INFO - Environment detection completed and saved to json/detect_result.json
+2025-06-15 16:08:22 - ERROR - ufw active: failed, score +0
+2025-06-15 16:08:22 - ERROR - ufw default policy deny: failed, score +0
+2025-06-15 16:08:22 - ERROR - ufw logging: disabled, score +0
+2025-06-15 16:08:23 - INFO - ----------检查日志审计板块------------
+2025-06-15 16:08:23 - INFO - Checking if auditd is installed...
+2025-06-15 16:08:23 - INFO - auditd installed, +4 score
+2025-06-15 16:08:23 - INFO - Checking audit rules for passwd, shadow, secure...
+2025-06-15 16:08:23 - INFO - All required audit rules found, +3 score
+2025-06-15 16:08:23 - INFO - Checking logrotate for audit logs...
+2025-06-15 16:08:23 - WARNING - No logrotate config found for audit logs
+2025-06-15 16:08:23 - INFO - ----------检查补丁板块------------
+2025-06-15 16:08:23 - INFO - Checking if update cache exists...
+2025-06-15 16:08:23 - INFO - Update cache exists, +7 score
+2025-06-15 16:08:23 - INFO - Checking if auto update service is enabled...
+2025-06-15 16:08:23 - INFO - Auto update enabled, +7 score
+2025-06-15 16:08:23 - INFO - Checking if update log file exists...
+2025-06-15 16:08:23 - INFO - Update log exists, +6 score
+2025-06-15 16:08:24 - INFO - ----------检查端口扫描板块------------
+2025-06-15 16:08:24 - INFO - Checking if SSH is bound to 0.0.0.0
+2025-06-15 16:08:24 - INFO - SSH bound to public interface, score 0
+2025-06-15 16:08:24 - INFO - Checking if Telnet service exists
+2025-06-15 16:08:24 - INFO - Telnet not enabled, score 4
+2025-06-15 16:08:24 - INFO - Checking if FTP service installed
+2025-06-15 16:08:24 - INFO - FTP not installed, score 4
+2025-06-15 16:08:25 - INFO - ----------检查ssh板块------------
+2025-06-15 16:08:25 - INFO - Checking SSH root login...
+2025-06-15 16:08:25 - INFO - Root login disabled, +8 score
+2025-06-15 16:08:26 - INFO - Checking SSH empty passwords...
+2025-06-15 16:08:26 - INFO - Empty passwords disabled, +7 score
+2025-06-15 16:08:27 - INFO - Checking SSH MaxAuthTries...
+2025-06-15 16:08:27 - INFO - MaxAuthTries <= 4, +5 score
+2025-06-15 16:08:27 - INFO - Account security audit completed. Total score: 69 (总分为100分)
+2025-06-15 16:08:27 - INFO - --------- All scanning completed successfully-----------------
+2025-06-15 16:08:37 - INFO - -----------------开始模拟修复----------------
+2025-06-15 16:08:37 - INFO - Empty password check: 没有检测到问题，跳过
+2025-06-15 16:08:37 - INFO - UID 0 users check: 没有检测到问题，跳过
+2025-06-15 16:08:37 - INFO - Risky sudoers check: 存在隐患，执行模拟修复
+2025-06-15 16:08:37 - INFO - [dryrun] 从 sudo, wheel, admin 组移除无关成员: ['beibei']
+2025-06-15 16:08:37 - INFO - Firewall check: 存在隐患，执行模拟修复
+2025-06-15 16:08:37 - INFO - [dryrun] 将检查并配置 ufw
+2025-06-15 16:08:37 - INFO - [dryrun] ufw 服务将被启用并设置为开机自启
+2025-06-15 16:08:37 - INFO - [dryrun] 默认策略将设置为拒绝
+2025-06-15 16:08:37 - INFO - [dryrun] ufw 日志将被启用
+2025-06-15 16:08:37 - INFO - Auditd installation check: 没有检测到问题，跳过
+2025-06-15 16:08:37 - INFO - Audit rules check: 存在隐患，执行模拟修复
+2025-06-15 16:08:37 - INFO - [dryrun]将每个 required_rule 写入 hardening.rules 文件；执行 augenrules 生成最终规则并重启 auditd 服务。
+2025-06-15 16:08:37 - INFO - Audit logrotate check: 没有检测到问题，跳过
+2025-06-15 16:08:37 - INFO - Audit update_log check: 没有检测到问题，跳过
+2025-06-15 16:08:37 - INFO - Audit update_cache check: 没有检测到问题，跳过
+2025-06-15 16:08:37 - INFO - Audit update_service check: 没有检测到问题，跳过
+2025-06-15 16:08:37 - INFO - Fix SSH bind address to localhost: 没有检测到问题，跳过
+2025-06-15 16:08:37 - INFO - Disable and remove Telnet service: 没有检测到问题，跳过
+2025-06-15 16:08:37 - INFO - Disable and remove FTP service: 没有检测到问题，跳过
+2025-06-15 16:08:37 - INFO - Audit ssh_root check: 没有检测到问题，跳过
+2025-06-15 16:08:37 - INFO - Audit ssh_passwd_check: 没有检测到问题，跳过
+2025-06-15 16:08:37 - INFO - Audit ssh_max check: 没有检测到问题，跳过
+2025-06-15 16:08:37 - INFO - -----All simulated fixes completed successfully-----
